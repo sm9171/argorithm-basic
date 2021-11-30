@@ -8,23 +8,19 @@ public class One11 {
     }
     private String Soloution(String s) {
         String result ="";
-        char c[] = s.toCharArray();
-        char ch= c[0];
+        s=s+" ";
         int count = 1;
-        for (int i = 0; i < s.length(); i++) {
-            if (ch == c[i]) {
+        for (int i = 0; i < s.length()-1; i++) {
+            if (s.charAt(i) == s.charAt(i+1)) {
                 count++;
             }else{
-                if(count!=1){
+                result+=s.charAt(i);
+                if(count>1){
                     result+=count;
                 }
-                result+=c[i];
-                ch=c[i];
                 count=1;
             }
         }
-
-
         return result;
     }
 }
