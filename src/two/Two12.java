@@ -16,7 +16,30 @@ public class Two12 {
 
     private int solution(int a,int b ,int[][] c) {
         int answer = 0;
+        for (int i = 1; i <= a; i++) {
+            for (int j = 1; j <= a; j++) {
+                int cnt =0;
+                for (int k = 0; k < b; k++) {
+                    int pi = 0, pj = 0;
+                    for (int s = 0; s < a; s++) {
+                        if (c[k][s] == i) {
+                            pi=s;
+                        }
 
+                        if (c[k][s] == j) {
+                            pj=s;
+                        }
+                    }
+                    if (pi<pj) {
+                        cnt++;
+                    }
+                }
+                if (cnt == b) {
+                    answer++;
+                }
+
+            }
+        }
         return answer;
     }
 }
