@@ -7,28 +7,34 @@ public class Six10 {
         int n = 5;
         int m = 3;
         int[] arr = {1, 2, 8, 4, 9};
-
         Six10 T = new Six10();
         System.out.println( T.solution(n,m,arr));
     }
     private int solution(int n, int m, int[] arr) {
         int result = 0;
         Arrays.sort(arr);
-        int lt = Arrays.stream(arr).min().getAsInt();
-        int rt = Arrays.stream(arr).max().getAsInt();
+        int lt = 1;
+        int rt = arr[n-1];
+        while (lt <= rt) {
+            int mid = (rt + lt) / 2;
+            if (count(arr, mid) >= m) {
+                result = mid;
+                lt = mid + 1;
+            }else{
+                rt = mid - 1;
+            }
+        }
 
         return result;
     }
 
-    private int count(int arr[], int capacity) {
+    private int count(int arr[], int dist) {
         int cnt = 1;
-        int sum = 0;
-        for (int x :arr) {
-            if (x + sum > capacity) {
+        int ep = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] - ep >= dist) {
                 cnt++;
-                sum = x;
-            }else{
-                sum += x;
+                ep = arr[i];
             }
         }
         return cnt;
