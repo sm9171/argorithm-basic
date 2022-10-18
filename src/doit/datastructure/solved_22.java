@@ -2,6 +2,7 @@ package doit.datastructure;
 
 import java.io.*;
 
+//boj_10989
 public class solved_22 {
     public static int[] A;
     public static long result;
