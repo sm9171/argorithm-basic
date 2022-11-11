@@ -10,6 +10,11 @@ public class solved_24 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
+        DFS(2, 1);
+        DFS(3, 1);
+        DFS(5, 1);
+        DFS(7, 1);
+
     }
 
     private static void DFS(int number, int jarisu) {
