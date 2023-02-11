@@ -2,16 +2,16 @@
 
 |   문제 분류   | 문제 |                             문제 제목                              | 풀이 체크 |
 |:---------:| :----------------: |:--------------------------------------------------------------:|:-----:|
-|   연습 문제   | 10871 |       [X보다 작은 수](https://www.acmicpc.net/problem/10871)        |       |
-|  기본 문제✔   | 1000 |          [A+B](https://www.acmicpc.net/problem/1000)           |       |
-|  기본 문제✔   | 2557 |      [Hello World](https://www.acmicpc.net/problem/2557)       |       |
-|  기본 문제✔   | 10171 |          [고양이](https://www.acmicpc.net/problem/10171)          |       |
-|  기본 문제✔   | 10869 |         [사칙연산](https://www.acmicpc.net/problem/10869)          |       |
-|  기본 문제✔   | 9498 |         [시험 성적](https://www.acmicpc.net/problem/9498)          |       |
-|  기본 문제✔   | 2752 |          [세수정렬](https://www.acmicpc.net/problem/2752)          |       |
-|  기본 문제✔   | 2753 |           [윤년](https://www.acmicpc.net/problem/2753)           |       |
-|  기본 문제✔   | 2480 |         [주사위 세개](https://www.acmicpc.net/problem/2480)         |       |
-|  기본 문제✔   | 2490 |          [윷놀이](https://www.acmicpc.net/problem/2490)           |       |
+|   연습 문제   | 10871 |       [X보다 작은 수](https://www.acmicpc.net/problem/10871)        |  ✔     |
+|  기본 문제✔   | 1000 |          [A+B](https://www.acmicpc.net/problem/1000)           |   ✔    |
+|  기본 문제✔   | 2557 |      [Hello World](https://www.acmicpc.net/problem/2557)       |   ✔    |
+|  기본 문제✔   | 10171 |          [고양이](https://www.acmicpc.net/problem/10171)          |   ✔    |
+|  기본 문제✔   | 10869 |         [사칙연산](https://www.acmicpc.net/problem/10869)          |   ✔    |
+|  기본 문제✔   | 9498 |         [시험 성적](https://www.acmicpc.net/problem/9498)          |   ✔    |
+|  기본 문제✔   | 2752 |          [세수정렬](https://www.acmicpc.net/problem/2752)          |   ✔    |
+|  기본 문제✔   | 2753 |           [윤년](https://www.acmicpc.net/problem/2753)           |    ✔   |
+|  기본 문제✔   | 2480 |         [주사위 세개](https://www.acmicpc.net/problem/2480)         |   ✔    |
+|  기본 문제✔   | 2490 |          [윷놀이](https://www.acmicpc.net/problem/2490)           |    ✔   |
 |  기본 문제✔   | 2576 |           [홀수](https://www.acmicpc.net/problem/2576)           |       |
 |  기본 문제✔   | 2587 |          [대표값2](https://www.acmicpc.net/problem/2587)          |       |
 |  기본 문제✔   | 2309 |         [일곱 난쟁이](https://www.acmicpc.net/problem/2309)         |       |
